@@ -33,4 +33,13 @@
     .card-section .see-more{
         margin-top: 30px;
     }
+    /* featured section*/
+    .featured-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    /* footer section */
+    .footer-content{
+        padding: 50px;
+    }
 }

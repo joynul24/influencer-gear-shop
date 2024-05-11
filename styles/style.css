@@ -22,6 +22,10 @@ body {
     margin-top: 16px;
 }
 
+.btn-primary:hover{
+    background-color: green;
+}
+
 .primary-description {
     color: rgb(108, 108, 108);
     font-size: 16px;
@@ -93,7 +97,6 @@ nav ul li a {
 main {
     max-width: 1200px;
     margin: 70px auto;
-    height: 500px;
 }
 
 /* company logos section */
@@ -109,10 +112,9 @@ main {
 /* card-section styles */
 .card-section {
     margin-top: 100px;
-    border: 2px solid tomato;
 }
 
-.card-section .see-more{
+.card-section .see-more {
     color: rgba(224, 44, 109, 0.87);
     font-size: 25px;
     font-weight: 700;
@@ -129,7 +131,6 @@ main {
 }
 
 .grid-card-container {
-    border: 2px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3);
@@ -142,7 +143,6 @@ main {
 }
 
 .single-card {
-    border: 2px solid blue;
     width: 330px;
     padding: 15px;
     border-radius: 5px;
@@ -183,4 +183,63 @@ main {
 .star-container h5 {
     font-size: 15px;
     margin-left: 7px;
+}
+
+/* featured section styles */
+.featured-section {
+    margin-top: 100px;
+}
+
+.featured-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.featured-content {
+    padding: 30px;
+}
+
+.featured-content .featured-title {
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* footer section styles */
+footer {
+    background: black;
+    padding: 20px;
+}
+
+.footer-content {
+    text-align: center;
+    color: #fff;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.foot-description {
+    color: rgb(217, 219, 225);
+    font-size: 14px;
+    font-weight: 400;
+    /* margin-bottom: 15px; */
+}
+.footer-content h5{
+    margin: 10px;
+}
+.footer-content img{
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 1px solid red;
+    object-fit: cover;
+}
+.icons span{
+    margin-right: 10px;
 }
